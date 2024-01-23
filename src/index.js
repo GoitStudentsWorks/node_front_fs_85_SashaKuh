@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <GlobalStyle />
-        <BrowserRouter basename="/frontend-water">
+        <BrowserRouter basename="/node_front_fs_85_SashaKuh">
           <App />
         </BrowserRouter>
       </PersistGate>
